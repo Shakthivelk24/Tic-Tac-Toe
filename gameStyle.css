@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FCE7C8;
+    text-align: center;
+}
+
+.winner-display{
+    text-align: center;
+    font-size: 100px;
+    color: #F0A04B;
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#newGame{
+    background-color: #05a21a;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: brown;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    display: flex;
+    height: 70vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    display: flex;
+    height: 60vmin;
+    width: 60vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+
+.boxs{
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0ccef0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#reset{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2b1835;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#newGame:hover{
+    background: transparent;
+    text-decoration: underline;
+    border: 2px solid black;
+    color: black;
+    font-weight: bolder;
+}
+
+#reset:hover{
+    background: transparent;
+    text-decoration: underline;
+    border: 2px solid black;
+    color: black;
+    font-weight: bolder;
+}
+
+.boxs:hover{
+    background-color: red;
+}
